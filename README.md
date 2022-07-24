@@ -8,5 +8,5 @@ When you start the project оpen the following address http://localhost:81/.
 
 ## Set the username and password for your database.
 -> application.properties -> 
-  spring.datasource.username=...........
+  spring.datasource.username=........... , 
   spring.datasource.password=...........
