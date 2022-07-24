@@ -10,6 +10,12 @@ public class HomeController {
 
 	@GetMapping("/")
 	public String hello() {
-		return "Welcome";
+		return this.welcomeMessage();
+	}
+	
+	private String welcomeMessage() {
+		String msg = String.format("<h1>Welcome</h1>%n<h2>Links:</h2>%n1. Common Information for Covid -> http://localhost:81/common-information/all");
+		return msg;
 	}
 }
+
